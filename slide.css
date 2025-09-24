@@ -1,0 +1,17 @@
+.col{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+.row{
+    display: flex;
+}
+
+.row-A .col:nth-child(2n){
+    background-color: black;
+}
+
+.row-B .col:nth-child(2n+1){
+    background-color: black;
+}
